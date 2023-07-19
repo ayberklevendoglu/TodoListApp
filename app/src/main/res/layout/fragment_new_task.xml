@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FragmentNewTask"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/new_task"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_margin="10dp"
+        android:textSize="34sp"
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputTask"
+            android:hint="@string/enter_new_task"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/btnTime"
+        android:text="@string/pick_a_time"
+        app:cornerRadius="5dp"
+        android:textSize="21sp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:backgroundTint="@color/white"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/btnSave"
+        android:text="@string/save"
+        app:cornerRadius="5dp"
+        android:textSize="21sp"
+        android:backgroundTint="@android:color/holo_orange_dark"/>
+
+</LinearLayout>

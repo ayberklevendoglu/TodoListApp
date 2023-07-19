@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TodoListRoom</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_new_task">Enter new task</string>
+    <string name="new_task">New Task:</string>
+    <string name="save">Save</string>
+    <string name="task_name">Task Name</string>
+    <string name="time">Time</string>
+    <string name="pick_a_time">Pick a time</string>
+    <string name="popup_menu">popup_menu</string>
+</resources>
